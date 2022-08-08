@@ -1,4 +1,4 @@
-import { useGetLessonsQQuery } from '../graphql/generated'
+import { useGetLessonsQQuery } from '../graphql/generated.js'
 import { Lesson } from "./Lesson";
 
 export function Sidebar() {

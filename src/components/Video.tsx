@@ -8,7 +8,7 @@ import {
 } from "phosphor-react";
 
 import "@vime/core/themes/default.css";
-import { useGetLessonBySlugQuery } from "../graphql/generated";
+import { useGetLessonBySlugQuery } from "../graphql/generated.js";
 
 interface VideoProps {
   lessonSlug: string;
